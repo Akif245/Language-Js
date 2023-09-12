@@ -1,0 +1,5 @@
+var a = Math.random();
+a = a * 6;
+a = Math.floor(a + 1);                        //it is for round off
+console.log(a);
+  // 

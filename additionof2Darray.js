@@ -7,7 +7,7 @@
 //   [9, 9, 9]
 // ];
 // console.log(Array+","+Array1);
-                                                   //  or
+                                                    //  or
 
 let arr = [
   [0, 1, 2, 3, 4],
