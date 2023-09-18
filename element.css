@@ -1,0 +1,9 @@
+.huge{
+font-size: 10rem;
+font-weight: bolder;
+color: aquamarine;
+ }                                              /* querySelector,addEventListner,getElementByTagName,getElementByClassName,getElementById,TextContent,InnerHTML,*/
+.btn{
+          cursor: pointer;
+          color: aqua;
+}
