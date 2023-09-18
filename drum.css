@@ -1,0 +1,60 @@
+body{
+
+          background-color: brown;
+                   
+}
+*{
+          margin: 0;
+          padding: 0;
+}
+.heading{
+          margin: 19px 590px;
+}
+
+.allbtn  {
+background-color: chocolate;
+
+padding: 162px 416px;
+}
+.a        {
+          cursor: pointer;
+          height: 100px;
+          width: 100px;
+          border: 30px;
+          border: solid black;
+          border-radius: 30px;
+
+}
+.b{
+          cursor: pointer;
+          height: 100px;
+          width: 100px;
+
+}
+.c{
+          cursor: pointer;
+          height: 100px;
+          width: 100px;
+
+}
+.c{
+          cursor: pointer;
+          height: 100px;
+          width: 100px;
+
+}
+.d{
+          cursor: pointer;
+          height: 100px;
+          width: 100px;
+
+}
+.e{
+          cursor: pointer;
+          height: 100px;
+          width: 100px;
+
+}
+footer{
+          margin: 0 600px;
+}
