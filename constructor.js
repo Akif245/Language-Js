@@ -19,5 +19,10 @@ class railwayform{
           abdulform.cancel()
           abdulform.submit()
           akifform.cancel()
+
+
+
+
+
           
           
