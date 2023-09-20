@@ -1,13 +1,13 @@
-var allbuttons = document.querySelectorAll(".a").length;
+var allbuttons = document.querySelectorAll(".drum").length;
 
-// for (let i = 0; i < allbuttons; i++) {
+for (let i = 0; i < allbuttons; i++) {
 
-//   document.querySelectorAll(".a")[i].addEventListener("click", function () {
+  document.querySelectorAll(".drum")[i].addEventListener("click", function () {
 
-//     console.log("akif");
+   ( this.style.color = "white");
 
-//   });
-// }
+  });
+}
 
 document.querySelector("button").addEventListener("click",function(){
   

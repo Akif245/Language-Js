@@ -17,7 +17,7 @@ background-color: chocolate;
 
 padding: 162px 416px;
 }
-.a        {
+.a      {
           cursor: pointer;
           height: 100px;
           width: 100px;
@@ -25,37 +25,49 @@ padding: 162px 416px;
           border: solid black;
           border-radius: 30px;
           background-image:url(drum.jpg);
-
+          
+          
 }
 .b{
           cursor: pointer;
           height: 100px;
           width: 100px;
+          border-radius: 30px;
+          border: solid black;
+          background-image: url(drum2.jpg);
+          
+
 
 }
+
 .c{
           cursor: pointer;
           height: 100px;
           width: 100px;
-
-}
-.c{
-          cursor: pointer;
-          height: 100px;
-          width: 100px;
-
+          border-radius: 30px;
+          border: solid black;
+          background-image: url(kickdrum.jpg);
+          
 }
 .d{
           cursor: pointer;
           height: 100px;
           width: 100px;
-
+          border-radius: 30px;
+          border: solid black;
+          background-image: url(cymbal.jpg);
+          
 }
 .e{
           cursor: pointer;
           height: 100px;
           width: 100px;
+          border-radius: 30px;
+          border: solid black;
+          background-image: url(drum.jpg);
 
+          
+          
 }
 footer{
           margin: 0 600px;
