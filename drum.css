@@ -17,7 +17,7 @@ background-color: chocolate;
 
 padding: 162px 416px;
 }
-.a      {
+.a              {
           cursor: pointer;
           height: 100px;
           width: 100px;
@@ -68,6 +68,12 @@ padding: 162px 416px;
 
           
           
+}
+.pressed{
+box-shadow: 0 3px 4px 0;
+opacity: 0.5;
+
+
 }
 footer{
           margin: 0 600px;
