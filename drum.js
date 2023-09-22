@@ -3,10 +3,13 @@ var allbuttons = document.querySelectorAll(".drum").length;
 for (let i = 0; i < allbuttons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     var buttonInnerHTML = this.innerHTML;
+    
     makeSound(buttonInnerHTML);
 
-    // buttonAnimation(buttonInnerHTML);
-  });
+    // buttonAnimation(buttonInnerHTML); 
+    
+    
+  }); 
 }
 
 function makeSound(key) {
@@ -38,12 +41,14 @@ function makeSound(key) {
   }
 }
 
-// function buttonAnimation(currentKey) {
-//   var activeButton = document.querySelector("." + currentKey);
+// function buttonAnimation(a) {
+//   var active = document.querySelector("." + a);
 
-//   activeButton.classList.add("pressed");
+//   active.classList.add("pressed");
 
+// } 
+  
 //   setTimeout(function () {
-//     action.classList.remove("pressed");
-//   }, 1000);
-// }
+//     active.classList.remove("pressed");
+//   }, 100);;
+  

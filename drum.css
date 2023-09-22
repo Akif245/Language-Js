@@ -25,6 +25,7 @@ padding: 162px 416px;
           border: solid black;
           border-radius: 30px;
           background-image:url(drum.jpg);
+          box-shadow: 5px 5px 5px 5px  ;
           
           
 }
@@ -35,6 +36,8 @@ padding: 162px 416px;
           border-radius: 30px;
           border: solid black;
           background-image: url(drum2.jpg);
+          box-shadow: 5px 5px 5px 5px  ;
+
           
 
 
@@ -47,6 +50,7 @@ padding: 162px 416px;
           border-radius: 30px;
           border: solid black;
           background-image: url(kickdrum.jpg);
+          box-shadow: 5px 5px 5px 5px  ;
           
 }
 .d{
@@ -56,6 +60,7 @@ padding: 162px 416px;
           border-radius: 30px;
           border: solid black;
           background-image: url(cymbal.jpg);
+          box-shadow: 5px 5px 5px 5px  ;
           
 }
 .e{
@@ -65,16 +70,17 @@ padding: 162px 416px;
           border-radius: 30px;
           border: solid black;
           background-image: url(drum.jpg);
+          box-shadow: 5px 5px 5px 5px  ;
 
           
           
 }
 .pressed{
-box-shadow: 0 3px 4px 0;
+box-shadow: 0 3px 4px 0 #3cb6df;
 opacity: 0.5;
 
 
 }
-footer{
+footer{ 
           margin: 0 600px;
 }
