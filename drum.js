@@ -1,4 +1,5 @@
 var allbuttons = document.querySelectorAll(".drum").length;
+var active = document.querySelector("." + active );
 
 for (let i = 0; i < allbuttons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
@@ -6,7 +7,7 @@ for (let i = 0; i < allbuttons; i++) {
     
     makeSound(buttonInnerHTML);
 
-    // buttonAnimation(buttonInnerHTML); 
+    buttonAnimation(buttonInnerHTML); 
     
     
   }); 
@@ -41,14 +42,13 @@ function makeSound(key) {
   }
 }
 
-// function buttonAnimation(a) {
-//   var active = document.querySelector("." + a);
+function buttonAnimation(active) {
 
-//   active.classList.add("pressed");
+  active.classList.add("pressed");
 
-// } 
   
-//   setTimeout(function () {
-//     active.classList.remove("pressed");
-//   }, 100);;
+  setTimeout(function () {
+    active.classList.remove("pressed");
+  }, 100);;
+} 
   
