@@ -18,5 +18,11 @@ $("button").text("Don't Click Me")
 
 
 // to give HTML in      in will take HTML TAGS also
-$("button").html("<b>akif</b>")      
+$("button").html("<b>akif</b>")     
+     
+
+// to know which key is pressed
+$(document).keypress(function (event) {
+          $("h1").text(event.key);        
+})
 
